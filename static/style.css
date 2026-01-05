@@ -2,7 +2,7 @@
 
 body {
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-  background: #dc6802;
+  background: #b15402;
   color: #828ca7;
   min-height: 100vh;
   display: grid;
@@ -59,7 +59,7 @@ body {
   width: 100%;
   padding: 12px;
   border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(210, 189, 189, 0.14);
   background: rgba(110, 168, 254, 0.22);
   color: #eaf0ff;
   font-weight: 700;
