@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Macros Counter</title>
+
+  <!-- Served by Flask from / -->
+ <link rel="stylesheet" href="./style.css">
+<script src="./app.js" defer></script>
+</head>
+
+<body>
+  <main class="container">
+    <h1 class="title">Let's count your macros!</h1>
+    <p class="subtitle">Enter your meal details in grams to estimate macros.</p>
+
+    <label class="label" for="mealInput">Meal description</label>
+    <textarea
+      id="mealInput"
+      class="textarea"
+      placeholder="Write the meal with as much detail as possible..."
+    ></textarea>
+
+    <button id="countBtn" class="btn">Count!</button>
+
+    <section class="card">
+      <h3 class="card-title">Result</h3>
+      <div id="result" class="result">—</div>
+    </section>
+  </main>
+</body>
+</html>
